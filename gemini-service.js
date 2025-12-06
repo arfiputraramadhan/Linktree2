@@ -327,7 +327,7 @@ class GeminiService {
              { 
                 name: "Web flower", 
                 url: "https://privatserver.diskon.com", 
-                icon: "fa-brands fa-email", 
+                icon: "fa-brands fa-gmail", 
                 badge: "Flower" 
             },
         ];

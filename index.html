@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arfi Putra Ramadhan - AI Enhanced Linktree</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background dengan efek parallax -->
+    <div class="parallax-bg"></div>
+    <div class="overlay"></div>
+    
+    <!-- Floating particles untuk efek dekoratif -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    
+    <!-- Loading screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- AI Chat Widget -->
+    <div class="ai-chat-widget">
+        <div class="ai-chat-header">
+            <div class="ai-avatar">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="ai-info">
+                <h4>AI Assistant</h4>
+                <span class="ai-status">Online</span>
+            </div>
+            <button class="ai-close-btn">
+                <i class="fa-solid fa-times"></i>
+            </button>
+        </div>
+        <div class="ai-chat-messages">
+            <div class="ai-message">
+                <p>Halo! Saya AI assistant Arfi. Ada yang bisa saya bantu?</p>
+            </div>
+        </div>
+        <div class="ai-chat-input">
+            <input type="text" placeholder="Tanya sesuatu ke AI..." id="aiInput">
+            <button id="aiSendBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- AI Chat Toggle Button -->
+    <button class="ai-toggle-btn">
+        <i class="fa-solid fa-robot"></i>
+        <span class="ai-notification"></span>
+    </button>
+
+    <!-- Konten utama -->
+    <section>
+        <main>
+<div id="kataMotivasi" class="kata-motivasi"></div>
+            <div class="profile-img-container">
+                <img src="jancok.jpg" alt="Arfi Putra Ramadhan" class="profile-img">
+                <div class="profile-img-border"></div>
+                <div class="online-status"></div>
+            </div>
+            
+            <h2 class="profile-name">Arfi Putra Ramadhan</h2>
+            
+            <!-- AI Generated Bio -->
+            <div class="ai-bio-container">
+                <div class="ai-bio">
+                    <i class="fa-solid fa-sparkles"></i>
+                    <span id="aiBioText">Generating personalized bio...</span>
+                </div>
+                <button class="refresh-bio-btn">
+                    <i class="fa-solid fa-rotate"></i>
+                </button>
+            </div>
+
+            <!-- Visitor Counter -->
+            <div class="visitor-counter">
+                <i class="fa-solid fa-eye"></i>
+                <span>Visitors: <span id="visitorCount">0</span></span>
+            </div>
+
+            <div class="links-container">
+                <a href="https://wa.me/62881010022751?text=halo bang" class="link-item" data-analytics="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                    <span class="link-badge">Direct</span>
+                </a>
+                <a href="https://open.spotify.com/playlist/1r6z9cUP7cZvVJGnDlSTQ3?si=csBt5jJqRUuYeZCC0lR0Nw%0A" class="link-item" data-analytics="spotify">
+                    <i class="fa-brands fa-spotify"></i>
+                    <span>Spotify Playlist</span>
+                    <span class="link-badge">Music</span>
+                </a>
+                <a href="https://www.tiktok.com/@orang.sukses767?_t=ZS-8vym5essUm0&_r=1" class="link-item" data-analytics="tiktok">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <span>TikTok</span>
+                    <span class="link-badge">Viral</span>
+                </a>
+                <a href="https://www.instagram.com/arfiputra31254?igsh=MTB2eXN4Z2NybnZqMw==" class="link-item" data-analytics="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span>
+                    <span class="link-badge">Social</span>
+                </a>
+                <a href="https://open.spotify.com/playlist/3OIeMMkIACsG8jAAnXi7y0?si=UttxXbS8QuOY_MjCiKl--g" class="link-item" data-analytics="spotify-hindia">
+                    <i class="fa-brands fa-spotify"></i>
+                    <span>Spotify Hindia & Feast</span>
+                    <span class="link-badge">Indie</span>
+                </a>
+                
+                <!-- AI Recommended Links -->
+                <div class="ai-recommendations">
+                    <h3 class="ai-section-title">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        AI Recommended
+                    </h3>
+                    <div id="aiRecommendedLinks" class="ai-links-container">
+                        <!-- AI akan generate links di sini -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Music Player -->
+            <div class="music-player">
+                <div class="music-info">
+                    <i class="fa-solid fa-music"></i>
+                    <span>Background Music</span>
+                </div>
+                <div class="music-controls">
+                    <button id="playPauseBtn" class="music-btn">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="muteBtn" class="music-btn">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>BY <a href="#" id="dynamicFooter">Arfi Putra Ramadhan</a></p>
+            <div class="tech-stack">
+                <span>Powered by Gemini AI • Interactive Linktree</span>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Audio untuk background music -->
+    <audio id="backgroundMusic" loop>
+        <source src="dj.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Scripts -->
+    <script src="config.js"></script>
+    <script src="audio-service.js"></script>
+    <script src="gemini-service.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

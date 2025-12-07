@@ -1,11 +1,8 @@
-[file name]: gemini-service.js
-[file content begin]
 // Layanan Gemini AI untuk fitur-fitur canggih
 class GeminiService {
     constructor(apiKey) {
         this.apiKey = apiKey;
-        // Perbarui baseURL sesuai dengan endpoint yang Anda berikan
-        this.baseURL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+        this.baseURL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
         this.riwayatPercakapan = [];
         this.diInisialisasi = false;
         this.kataMotivasiAktif = "";
@@ -14,7 +11,7 @@ class GeminiService {
     }
 
     async init() {
-        if (this.apiKey && this.apiKey !== 'AIzaSyBsgWBtcciVeNXq-MuTwn_W6upadBCz7GM') {
+        if (this.apiKey && this.apiKey !== 'API_KEY_ANDA_DISINI') {
             this.diInisialisasi = true;
             console.log('✅ Layanan Gemini AI siap digunakan');
         } else {
@@ -156,7 +153,6 @@ class GeminiService {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'X-goog-api-key': this.apiKey // Tambahkan header X-goog-api-key
                 },
                 body: JSON.stringify({
                     contents: [{
@@ -330,7 +326,7 @@ class GeminiService {
             },
              { 
                 name: "Web flower", 
-                url: "https://privatserver.cyou", 
+                url: "https://privatserver.diskon.com", 
                 icon: "fa-brands fa-github", 
                 badge: "Flower" 
             },
@@ -356,7 +352,7 @@ class GeminiService {
         return {
             diInisialisasi: this.diInisialisasi,
             riwayatPercakapan: this.riwayatPercakapan.length,
-            apiKeyTersedia: !!(this.apiKey && this.apiKey !== 'AIzaSyBsgWBtcciVeNXq-MuTwn_W6upadBCz7GM'),
+            apiKeyTersedia: !!(this.apiKey && this.apiKey !== 'API_KEY_ANDA_DISINI'),
             kataMotivasiAktif: this.kataMotivasiAktif
         };
     }
@@ -364,4 +360,3 @@ class GeminiService {
 
 // Inisialisasi Layanan Gemini
 const geminiService = new GeminiService(CONFIG.GEMINI_API_KEY);
-[file content end]

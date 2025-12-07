@@ -1,6 +1,8 @@
+[file name]: config.js
+[file content begin]
 // Configuration file for Gemini AI and other settings
 const CONFIG = {
-    GEMINI_API_KEY: 'AIzaSyBsgWBtcciVeNXq-MuTwn_W6upadBCz7GM', // Ganti dengan API key Gemini Anda
+    GEMINI_API_KEY: 'AIzaSyBsgWBtcciVeNXq-MuTwn_W6upadBCz7GM', // API key Gemini telah diisi
     FEATURES: {
         AI_CHAT: true,
         AI_BIO: true,
@@ -23,3 +25,4 @@ const CONFIG = {
 let visitorCount = localStorage.getItem('visitorCount') || 0;
 visitorCount = parseInt(visitorCount) + 1;
 localStorage.setItem('visitorCount', visitorCount);
+[file content end]

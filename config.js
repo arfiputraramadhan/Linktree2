@@ -1,6 +1,6 @@
 // Configuration file for Gemini AI and other settings
 const CONFIG = {
-    GEMINI_API_KEY: 'YOUR_GEMINI_API_KEY_HERE', // Ganti dengan API key Gemini Anda
+    GEMINI_API_KEY: 'AIzaSyBsgWBtcciVeNXq-MuTwn_W6upadBCz7GM', // Ganti dengan API key Gemini Anda
     FEATURES: {
         AI_CHAT: true,
         AI_BIO: true,

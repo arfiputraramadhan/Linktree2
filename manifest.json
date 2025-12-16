@@ -9,12 +9,12 @@
     {
       "src": "test.png",
       "sizes": "192x192",
-      "type": "test.png"
+      "type": "image/png"
     },
     {
       "src": "test2.png",
       "sizes": "512x512",
-      "type": "test2.png"
+      "type": "image/png"
     }
   ]
 }

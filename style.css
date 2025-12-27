@@ -636,6 +636,7 @@ section footer p a:hover {
 .link-item:nth-child(7) { animation: slideInLeft 0.5s ease 0.9s both; }
 .link-item:nth-child(8) { animation: slideInLeft 0.5s ease 0.10s both; }
 .link-item:nth-child(9) { animation: slideInLeft 0.5s ease 0.11s both; }
+.link-item:nth-child(10) { animation: slideInLeft 0.5s ease 0.12s both; }
 
 
 @keyframes slideInLeft {

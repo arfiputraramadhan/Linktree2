@@ -330,12 +330,7 @@ class GeminiService {
                 icon: "fa-brands fa-github", 
                 badge: "Flower" 
             },
-            { 
-                name: "bot jubel akun game", 
-                url: "https://t.me/Jualbeliakungame13245_bot", 
-                icon: "fa-brands fa-telegram", 
-                badge: "BOT" 
-            },
+        
         ];
     }
 

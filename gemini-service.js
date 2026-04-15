@@ -97,6 +97,138 @@ class GeminiService {
             "Hidup adalah apa yang terjadi padamu ketika kamu sibuk membuat rencana lain. - John Lennon",
             "Kegelapan tidak bisa mengusir kegelapan, hanya cahaya yang bisa. - Martin Luther King Jr.",
             "Yang terbaik belum datang. - Tulus"
+
+            // Leonardo da Vinci
+"Pelajari dulu ilmu seni. Ilmu seni mungkin mengajarkanmu tentang ilmu kehidupan. - Leonardo da Vinci",
+"Halangan tidak membuatmu mundur. Setiap rintangan adalah pelajaran. - Leonardo da Vinci",
+"Siapa yang tidak menghargai kehidupan, tidak pantas menerimanya. - Leonardo da Vinci"
+
+// Marie Curie
+"Tidak ada yang perlu ditakuti dalam hidup, hanya perlu dipahami. - Marie Curie",
+"Saya termasuk orang yang berpikir bahwa sains memiliki keindahan luar biasa. - Marie Curie",
+"Jangan pernah membiarkan diri Anda putus asa. Kegigihan adalah kunci dari segalanya. - Marie Curie"
+
+// Henry Ford
+"Gagal adalah kesempatan untuk memulai lagi dengan lebih cerdas. - Henry Ford",
+"Jika semuanya tampak terkendali, berarti Anda tidak melaju cukup cepat. - Henry Ford",
+"Bertemu adalah awal, bersama adalah kemajuan, bekerja sama adalah kesuksesan. - Henry Ford"
+
+// Soichiro Honda (pendiri Honda)
+"Sukses adalah 99 persen kegagalan. - Soichiro Honda",
+"Banyak orang bermimpi besar tetapi tidak pernah bertindak. Jangan jadi salah satunya. - Soichiro Honda",
+"Keaslian tidak dapat dihasilkan oleh mereka yang takut melakukan kesalahan. - Soichiro Honda"
+
+// Thomas J. Watson (pendiri IBM)
+"Jika Anda ingin sukses, gandakanlah tingkat kegagalan Anda. - Thomas J. Watson",
+"Setiap masalah memiliki solusi. Hanya butuh waktu untuk menemukannya. - Thomas J. Watson",
+"Jadilah orang yang selalu haus belajar. Dunia bergerak cepat. - Thomas J. Watson"
+
+// Mark Zuckerberg
+"Hal terbesar yang bisa kita lakukan adalah memberdayakan orang lain. - Mark Zuckerberg",
+"Jangan takut mengambil risiko. Kesalahan terbesar adalah tidak pernah mencoba. - Mark Zuckerberg",
+"Ide tidak datang begitu saja. Mereka datang saat Anda bekerja keras. - Mark Zuckerberg"
+
+// Elon Musk
+"Ketekunan itu sangat penting. Jangan menyerah kecuali dipaksa menyerah. - Elon Musk",
+"Kegagalan adalah pilihan. Jika tidak pernah gagal, berarti Anda tidak cukup berinovasi. - Elon Musk",
+"Ketika sesuatu cukup penting, Anda tetap melakukannya meskipun peluangnya tidak berpihak. - Elon Musk"
+
+// Bruce Lee
+"Jangan berdoa untuk hidup yang mudah, berdoalah untuk menjadi pribadi yang lebih kuat. - Bruce Lee",
+"Batasan itu hanya ada di pikiran. Jika Anda bisa membayangkannya, Anda bisa mencapainya. - Bruce Lee",
+"Jadilah seperti air. Air bisa mengalir, bisa menerjang. Jadilah air, temanku. - Bruce Lee"
+
+// Michael Jordan
+"Saya gagal berulang kali. Itulah alasan saya sukses. - Michael Jordan",
+"Bakat memenangkan pertandingan, tetapi kerja keras dan kerja sama tim memenangkan kejuaraan. - Michael Jordan",
+"Rintangan tidak perlu menghalangi Anda. Jika menemui tembok, jangan berbalik. Cari cara untuk memanjatnya. - Michael Jordan"
+
+// Serena Williams
+"Kamu boleh memukulku, tapi jangan pernah menjatuhkanku. Aku akan terus bangkit. - Serena Williams",
+"Keberhasilan tidak diberikan. Kamu harus mengambilnya. - Serena Williams",
+"Saya sangat percaya bahwa tidak ada yang mustahil jika kamu memiliki tekad dan kemauan. - Serena Williams"
+
+// J.K. Rowling
+"Batu dasar dari semua kesuksesan adalah kerja keras. - J.K. Rowling",
+"Rendah hati sangat penting. Ingatlah selalu dari mana kamu berasal. - J.K. Rowling",
+"Kegagalan berarti menghilangkan hal-hal yang tidak penting. Aku berhenti berpura-pura menjadi orang lain. - J.K. Rowling"
+
+// Helen Keller
+"Hidup adalah petualangan yang berani atau bukan sama sekali. - Helen Keller",
+"Satu-satunya hal yang lebih buruk daripada buta adalah memiliki penglihatan tetapi tidak memiliki visi. - Helen Keller",
+"Karakter tidak bisa berkembang dengan mudah. Hanya melalui pengalaman, penderitaan, dan kesulitan jiwa diperkuat. - Helen Keller"
+
+// Confucius (Kong Hu Cu)
+"Ke mana pun kamu pergi, pergilah dengan sepenuh hati. - Confucius",
+"Orang yang bergerak meski lambat, tidak akan kehilangan arah. - Confucius",
+"Dia yang tahu, tidak banyak bicara. Dia yang banyak bicara, tidak tahu. - Confucius"
+
+// Lao Tzu
+"Perjalanan seribu mil dimulai dengan satu langkah. - Lao Tzu",
+"Ketika kamu puas menjadi dirimu sendiri, semua orang ingin bersamamu. - Lao Tzu",
+"Kemudahan mengalahkan kesulitan. Kesabaran mengalahkan kekuatan. - Lao Tzu"
+
+// Jenderal Sudirman
+"Tempat saya yang terbaik adalah di belakang senjata. - Jenderal Sudirman",
+"Kami tidak akan menyerah sampai titik darah penghabisan. - Jenderal Sudirman",
+"Penderitaan rakyat adalah tanggung jawab kami. Kami berjuang untuk kebebasan. - Jenderal Sudirman"
+
+// B.J. Habibie
+"Kegagalan hanya terjadi jika kita menyerah. - B.J. Habibie",
+"Kerja keras tidak akan mengkhianati hasil. - B.J. Habibie",
+"Kita tidak bisa selalu menjadi yang terbaik. Tapi kita bisa selalu berusaha yang terbaik. - B.J. Habibie"
+
+        // Winston Churchill
+"Kesuksesan bukanlah akhir, kegagalan bukanlah fatal. Yang terpenting adalah keberanian untuk melanjutkan. - Winston Churchill",
+"Kamu tidak akan pernah mencapai tujuan jika berhenti di tengah jalan saat dilempar batu. - Winston Churchill",
+"Kegagalan bukanlah satu-satunya hal yang harus ditakuti. Takut untuk tidak mencoba adalah hal yang lebih buruk. - Winston Churchill"
+
+// Nelson Mandela
+"Selalu terasa mustahil sampai itu selesai. - Nelson Mandela",
+"Saya bukanlah seorang yang kalah. Saya tidak pernah kalah. Entah saya menang, atau saya belajar. - Nelson Mandela",
+"Langkah pertama yang terlihat sulit tidak perlu ditakuti. Yang perlu ditakuti adalah tidak melangkah sama sekali. - Nelson Mandela"
+
+// Steve Jobs
+"Tetaplah lapar, tetaplah bodoh. - Steve Jobs",
+"Satu-satunya cara untuk melakukan pekerjaan hebat adalah dengan mencintai apa yang kamu lakukan. - Steve Jobs",
+"Jangan biarkan suara orang lain menenggelamkan suara hatimu sendiri. - Steve Jobs"
+
+// Albert Einstein
+"Hidup itu seperti naik sepeda. Untuk menjaga keseimbangan, kamu harus terus bergerak. - Albert Einstein",
+"Imajinasi lebih penting daripada pengetahuan. - Albert Einstein",
+"Cobalah tidak untuk menjadi seseorang yang sukses, tetapi menjadi seseorang yang bernilai. - Albert Einstein"
+
+// Thomas Edison
+"Saya tidak gagal. Saya hanya menemukan 10.000 cara yang tidak berhasil. - Thomas Edison",
+"Kelemahan terbesar kita adalah menyerah. Cara paling pasti untuk sukses adalah mencoba sekali lagi. - Thomas Edison",
+"Genius adalah satu persen inspirasi dan sembilan puluh sembilan persen keringat. - Thomas Edison"
+
+// R.A. Kartini
+"Jangan pernah menyerah jika kamu masih ingin mencoba. - R.A. Kartini",
+"Jangan biarkan penyesalan datang karena kamu selangkah lagi untuk menang. - R.A. Kartini",
+"Teruslah bermimpi, bermimpilah selama engkau dapat bermimjam. Bila tiada bermimpi, apakah jadinya hidup! - R.A. Kartini"
+
+// Theodore Roosevelt
+"Percayalah bahwa kamu bisa, maka kamu sudah setengah jalan menuju keberhasilan. - Theodore Roosevelt",
+"Jangan bimbang melakukan apa yang benar, terutama jika itu demi kebaikan banyak orang. - Theodore Roosevelt",
+"Keberanian bukanlah tidak memiliki rasa takut, tetapi mampu mengatasi rasa takut. - Theodore Roosevelt"
+
+// Oprah Winfrey
+"Ubahlah lukamu menjadi kebijaksanaan. - Oprah Winfrey",
+"Kamu mendapatkan apa yang kamu yakini. Bukan apa yang kamu inginkan, tapi apa yang kamu yakini. - Oprah Winfrey",
+"Lingkunganmu adalah rumahmu. Jangan takut untuk membangun istana dari puing-puing masa lalumu. - Oprah Winfrey"
+
+// Walt Disney
+"Jika kamu bisa memimpikannya, kamu bisa melakukannya. - Walt Disney",
+"Cara untuk memulai adalah dengan berhenti bicara dan mulai bertindak. - Walt Disney",
+"Semua mimpi kita bisa menjadi kenyataan jika kita memiliki keberanian untuk mengejarnya. - Walt Disney"
+
+// Mahatma Gandhi
+"Hiduplah seolah engkau mati besok. Belajarlah seolah engkau hidup selamanya. - Mahatma Gandhi",
+"Kekuatan tidak datang dari kemampuan fisik, tetapi dari kemauan yang tidak bisa dihancurkan. - Mahatma Gandhi",
+"Jadilah perubahan yang ingin kamu lihat di dunia. - Mahatma Gandhi"
+        
+        
         ];
 
         return kataKata[Math.floor(Math.random() * kataKata.length)];
@@ -325,10 +457,10 @@ class GeminiService {
                 badge: "Video" 
             },
              { 
-                name: "Web flower", 
+                name: "Apk tabungan", 
                 url: "https://privatserver.cyou", 
                 icon: "fa-brands fa-github", 
-                badge: "Flower" 
+                badge: "Tabungan" 
             },
         
         ];
